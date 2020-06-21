@@ -28,6 +28,7 @@ const CustomNav = () => {
             {navItems.map(item => 
               <Nav.Link className="text-center navLink">
                 <NavLink
+                  exact
                   className="color-customBlue w-100 text-decoration-none"
                   activeClassName="font-weight-bold" 
                   to={item.route}
