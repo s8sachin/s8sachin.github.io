@@ -26,7 +26,7 @@ const CustomNav = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mx-auto">
             {navItems.map(item => 
-              <Nav.Link className="text-center navLink">
+              <Nav.Link className="text-center navLink" key={item.label}>
                 <NavLink
                   exact
                   className="color-customBlue w-100 text-decoration-none"
