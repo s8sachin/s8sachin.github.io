@@ -11,3 +11,33 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.color-customBlue {
+  color: #091292 !important;
+}
+
+.color-customBlueLight {
+  color: #8d81a5 !important;
+}
+
+.color-customBlueLighter {
+  color: #a299b6;
+}
+
+.bg-customBlue {
+  background-color: #091292 !important;
+}
+
+.s-logo {
+  width: 40px;
+  background-color: #071b4b;
+  height: 40px;
+  text-align: center;
+  padding-top: -15px;
+  font-size: 28px;
+  border-radius: 10px;
+}
+
+.navLink {
+  min-width: 100px;
+}
