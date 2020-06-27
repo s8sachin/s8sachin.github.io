@@ -28,6 +28,14 @@ code {
   background-color: #091292 !important;
 }
 
+.bg-skyBlue {
+  background-color: skyblue !important;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
 .s-logo {
   width: 40px;
   background-color: #071b4b;
@@ -40,4 +48,46 @@ code {
 
 .navLink {
   min-width: 100px;
+}
+
+.progress-progCustomBlue {
+  background-color: #071b4b !important;
+  /* color: white; */
+}
+
+.neomorphIconCard {
+  /* transform: rotate(-150deg); */
+  /* background: #f9f9f9;
+  box-shadow: -5px -7px 8px 0 rgba(0,0,0,.04), 5px 7px 8px 0 #fff;
+  border-radius: 36px;
+  position: absolute; */
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow:  20px 20px 60px #d9d9d9, 
+              -20px -20px 60px #ffffff;
+  /* border-radius: 18px;
+  padding: 2px;
+  box-shadow: 4px 2px 16px rgba(136, 165, 191, 0.48), -4px -2px 16px #ffffff;
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent; */
+}
+
+.skillsImg {
+  width: 100px;
+  transition: width 0.15s;
+  transition-timing-function: ease-in-out;
+  /* -webkit-filter: grayscale(100%);
+  filter: grayscale(100%); */
+  cursor: pointer;
+}
+
+.skillsImg:hover {
+  width: 120px;
+  filter: none;
+}
+
+.justify-content-evenly {
+  justify-content: space-evenly;
 }
