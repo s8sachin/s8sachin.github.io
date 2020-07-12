@@ -1,8 +1,8 @@
 import React from 'react';
 import CustomNav from '../Components/NavBar';
-import { Container, CardDeck, Row, ProgressBar, Card, FormLabel, CardGroup, Col } from 'react-bootstrap';
+import { Container, Row, ProgressBar, FormLabel } from 'react-bootstrap';
 import IconCard from '../Components/IconCard';
-import { showcaseSkills, skillsList } from '../utils/skillsList';
+import { showcaseSkills, skillsList } from '../utils/helperList';
 
 const Skills = () => {
   return(
