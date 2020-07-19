@@ -13,6 +13,14 @@ code {
     monospace;
 }
 
+.text-bolder {
+  font-weight: 700;
+}
+
+.text-boldest {
+  font-weight: 900;
+}
+
 .color-customBlue {
   color: #091292 !important;
 }

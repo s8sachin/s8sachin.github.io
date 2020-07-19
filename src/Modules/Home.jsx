@@ -8,7 +8,7 @@ import useWindowDimensions from '../utils/dimensionHelper';
 
 // library.add()
 
-const Home = () => {
+const Home = ({history}) => {
   const { width } = useWindowDimensions();
 
   return (
@@ -31,7 +31,7 @@ const Home = () => {
                     <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/sachin-srinivasan-03103895/" className="color-customBlue p-0 mr-3"><FontAwesomeIcon size="2x" icon={faLinkedin} /></a>
                     <a target="_blank" rel="noopener noreferrer" href="https://stackoverflow.com/users/7199345/sachin-srinivasan" className="color-customBlue p-0 mr-3"><FontAwesomeIcon size="2x" icon={faStackOverflow} /></a>
                   </div><br />
-                  <Button className="bg-customBlue font-weight-bold shadow border-0">Contact Me</Button>
+                  <Button className="bg-customBlue font-weight-bold shadow border-0" onClick={() => history.push('/contact')}>Contact Me</Button>
                 </div>
               </div>
             </div>
