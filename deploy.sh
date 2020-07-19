@@ -12,3 +12,4 @@ rm service-worker.js
 cp -a ./build/ .
 
 git add .
+git status
