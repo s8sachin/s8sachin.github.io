@@ -59,17 +59,17 @@ const Contact = () => {
         </div>
         <br/>
         <div className="mt-3 mb-3 pr-lg-5 pr-xs-3">
-          <Button className="bg-customBlue mr-2 shadow border-0 py-1" onClick={() => window.open('https://www.linkedin.com/in/sachin-srinivasan-03103895/', '_blank')}>
-            <FontAwesomeIcon size="1x" icon={faLinkedinIn} /> | Linkedin
+          <Button className="contact-btns bg-customBlue mr-2 shadow border-0 py-1" onClick={() => window.open('https://www.linkedin.com/in/sachin-srinivasan-03103895/', '_blank')}>
+            <FontAwesomeIcon size="1x" icon={faLinkedinIn} /><span>Linkedin</span>
           </Button>
-          <Button className="bg-customBlue mr-2 shadow border-0 py-1" onClick={() => window.open('https://twitter.com/sachinsrinivasa', '_blank')}>
-            <FontAwesomeIcon size="1x" icon={faFacebookF} /> 
+          <Button className="contact-btns bg-customBlue mr-2 shadow border-0 py-1" onClick={() => window.open('https://www.facebook.com/s.sachin94/', '_blank')}>
+            <FontAwesomeIcon size="1x" icon={faFacebookF} /><span>Facebook</span>
           </Button>
-          <Button className="bg-customBlue mr-2 shadow border-0 py-1 px-2" onClick={() => window.open('https://www.facebook.com/s.sachin94/', '_blank')}>
-            <FontAwesomeIcon size="1x" icon={faTwitter} /> 
+          <Button className="contact-btns bg-customBlue mr-2 shadow border-0 py-1 px-2" onClick={() => window.open('https://twitter.com/sachinsrinivasa', '_blank')}>
+            <FontAwesomeIcon size="1x" icon={faTwitter} /><span>Twitter</span>
           </Button>
-          <Button className="bg-customBlue shadow border-0 py-1 px-2" onClick={() => window.open('mailto:s.sachin94@gmail.com?subject="Hello !"', '_blank')}>
-            <GmailSvg fillColor="#8d81a5" style={{width: 16}} />
+          <Button className="contact-btns bg-customBlue shadow border-0 py-1 px-2" onClick={() => window.open('mailto:s.sachin94@gmail.com?subject="Hello !"', '_blank')}>
+            <GmailSvg fillColor="#8d81a5" style={{width: 16}} /><span>Mail</span>
           </Button>
         </div>
       </Container>

@@ -107,6 +107,28 @@ code {
   border-radius: 20px;
 }
 
+/* Contact page */
+.contact-btns span {
+  max-width: 0;
+  -webkit-transition: max-width 1s;
+  transition: max-width 1s;
+  display: inline-block;
+  vertical-align: top;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.contact-btns:hover span {
+  max-width: 7rem;
+  /* padding-left: 5px; */
+}
+
+.contact-btns:hover span::before {
+  content: "|";
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #ffffffbd;
+}
 
 /* Media queries */
 
