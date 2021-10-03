@@ -9,7 +9,7 @@ rm precache-manifest*
 rm robots.txt
 rm service-worker.js
 
-cp -a ./build/ .
+cp -a ./build/ ./
 
 git add .
 git status
