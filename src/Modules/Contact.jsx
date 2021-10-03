@@ -51,7 +51,7 @@ const Contact = () => {
           ”
         </h1>
         <h5 className="pr-lg-5 pr-xs-3 text-wrap color-customBlueLight" style={{fontSize: descFontSize}}>
-          One of my favorite things about this job is the variety, in clients and projects. So no matter the work or technology, get in touch and tell me what you have in mind. — I can’t wait to hear all about it!
+          One of my favorite things about building software is the variety, in clients and projects. So no matter the work or technology, get in touch and tell me what you have in mind. — I can’t wait to hear all about it!
         </h5>
         <br/>
         <div className="pr-lg-5 pr-xs-3">
@@ -60,7 +60,7 @@ const Contact = () => {
         <br/>
         <div className="mt-3 mb-3 pr-lg-5 pr-xs-3">
           <Button className="contact-btns bg-customBlue mr-2 shadow border-0 py-1" onClick={() => window.open('https://www.linkedin.com/in/sachin-srinivasan-03103895/', '_blank')}>
-            <FontAwesomeIcon size="1x" icon={faLinkedinIn} /><span>Linkedin</span>
+            <FontAwesomeIcon size="1x" icon={faLinkedinIn} /><span style={{}}>Linkedin</span>
           </Button>
           <Button className="contact-btns bg-customBlue mr-2 shadow border-0 py-1" onClick={() => window.open('https://www.facebook.com/s.sachin94/', '_blank')}>
             <FontAwesomeIcon size="1x" icon={faFacebookF} /><span>Facebook</span>
