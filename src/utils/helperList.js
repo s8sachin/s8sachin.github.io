@@ -25,12 +25,12 @@ export const showcaseSkills = [{
 
 
 export const skillsList = [{
-//   label: 'HTML5',
-//   src: 'https://seeklogo.com/images/H/html5-logo-EF92D240D7-seeklogo.com.png'
-// }, {
-//   label: 'CSS3',
-//   src: 'https://seeklogo.com/images/C/css3-logo-8724075274-seeklogo.com.png'
-// }, {
+  label: 'HTML5',
+  src: 'https://img.icons8.com/color/144/000000/html-5--v1.png'
+}, {
+  label: 'CSS3',
+  src: 'https://img.icons8.com/color/144/000000/css3.png'
+}, {
   label: 'Javascript',
   src: 'https://img.icons8.com/color/144/000000/javascript.png',
 }, {
@@ -52,6 +52,9 @@ export const skillsList = [{
   label: 'React Native',
   src: 'https://i.ibb.co/7NfB2rt/rn2.png',
 }, {
+  label: 'Electron JS',
+  src: 'https://upload.wikimedia.org/wikipedia/commons/9/91/Electron_Software_Framework_Logo.svg'
+}, {
   label: 'Redux',
   src: 'https://img.icons8.com/color/144/000000/redux.png',
 }, {
@@ -60,6 +63,12 @@ export const skillsList = [{
 }, {
   label: 'Next JS',
   src: 'https://upload.wikimedia.org/wikipedia/commons/8/8e/Nextjs-logo.svg'
+}, {
+  label: 'Java',
+  src: 'https://img.icons8.com/color/144/000000/java-coffee-cup-logo--v1.png'
+}, {
+  label: 'Spring boot',
+  src: 'https://i.ibb.co/YNRnftP/pngfind-com-spring-png-535670-1.png'
 }, {
   label: 'Jquery',
   src: 'https://img.icons8.com/ios-filled/144/000000/jquery.png'
@@ -77,7 +86,7 @@ export const skillsList = [{
   src: 'https://i.ibb.co/GtbG98V/yarn2.png'
 }, {
   label: 'Material UI',
-  src: 'https://material-ui.com/static/logo_raw.svg'
+  src: 'https://img.icons8.com/color/144/000000/material-ui.png'
 }, {
   label: 'Bootstrap',
   src: 'https://i.ibb.co/zx0Tt9M/bootstrap.png'
