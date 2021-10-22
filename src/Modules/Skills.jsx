@@ -17,23 +17,23 @@ const Skills = () => {
         }}
       >
         {/* <h2 className="color-customBlue">Tech stack experience</h2> */}
-        <Row xs={1} md={2}>
-          <Col>
+        {/* <Row> */}
+          {/* <Col>
             <div className="py-3">
               {showcaseSkills.map(skill => <Fragment key={skill.label}>
                 <FormLabel className="color-customBlue">{skill.label}</FormLabel>
                 <ProgressBar now={skill.rating} variant="progress-progCustomBlue" style={{height: 4}} className="" /><br />
               </Fragment>)}
             </div>
-          </Col>
-          <Col>
+          </Col> */}
+          {/* <Col> */}
             <Row className="justify-content-evenly">
               {skillsList.map(s => (
                 <IconCard key={s.label} src={s.src} />
               ))}
             </Row>
-          </Col>
-        </Row>
+          {/* </Col> */}
+        {/* </Row> */}
       </Container>
     </>
   )
