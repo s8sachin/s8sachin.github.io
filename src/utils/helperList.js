@@ -58,6 +58,9 @@ export const skillsList = [{
   label: 'Redux',
   src: 'https://img.icons8.com/color/144/000000/redux.png',
 }, {
+  label: 'Docker',
+  src: "https://i.postimg.cc/dt6gHbhP/icons8-docker-144-1.png"
+}, {
   label: 'Github',
   src: 'https://img.icons8.com/fluent/144/000000/github.png'
 }, {
@@ -77,7 +80,7 @@ export const skillsList = [{
   src: 'https://img.icons8.com/color/144/000000/ruby-programming-language.png'
 }, {
   label: 'Ruby on Rails',
-  src: 'https://rubyonrails.org/images/rails-logo.svg',
+  src: 'https://i.postimg.cc/8CDMn09W/pngaaa-com-4122154.png',
 }, {
   label: 'NPM',
   src: 'https://img.icons8.com/color/144/000000/npm.png'
@@ -107,7 +110,7 @@ export const projectsList = [{
 }, {
   label: 'Smitha Karthik Portfolio',
   imgSrc: 'https://i.ibb.co/94GVFnf/rsz-smit-1.png',
-  src: 'https://smithakarthik.com',
+  src: 'https://smithakarthik.in',
   githubSrc: 'https://github.com/s8sachin/smitha-karthik'
 }, {
   label: 'KVHAA - Android app',
